@@ -1,0 +1,53 @@
+site_name: Neurocuidado
+site_description: Educación continua para el cuidado de personas con enfermedades neurológicas
+use_directory_urls: false   # páginas .html: funciona en cualquier hosting y abriendo los archivos directo
+# Cuando el sitio esté publicado, poner acá la dirección final:
+# site_url: https://usuario.github.io/neurocuidado/
+
+theme:
+  name: material
+  language: es
+  custom_dir: overrides
+  font: false            # usa las fuentes del sistema: carga más rápido en celulares
+  palette:
+    scheme: default
+    primary: custom
+    accent: custom
+  features:
+    - navigation.footer   # botones grandes de "Anterior / Siguiente" al pie
+    - navigation.top
+    - navigation.indexes
+  icon:
+    logo: material/hand-heart
+
+extra_css:
+  - assets/estilos.css
+extra_javascript:
+  - assets/verdadero-falso.js
+
+extra:
+  # Estadísticas: crear una cuenta gratis en https://www.goatcounter.com
+  # y poner acá el código elegido (ej.: "neurocuidado"). Vacío = sin estadísticas.
+  goatcounter: ""
+  generator: false
+
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - admonition
+  - pymdownx.details
+  - toc:
+      permalink: false
+
+nav:
+  - Inicio: index.md
+  - Trastorno de conciencia:
+      - trastorno-de-conciencia/index.md
+      - 1. ¿Qué es?: trastorno-de-conciencia/01-que-es.md
+      - 2. ¿Cómo se evalúa?: trastorno-de-conciencia/02-evaluacion.md
+      - 3. La recuperación: trastorno-de-conciencia/03-recuperacion.md
+      - 4. Estimulación: trastorno-de-conciencia/04-estimulacion.md
+      - 5. Movilizar y posicionar: trastorno-de-conciencia/05-movilizacion.md
+      - 6. Cuidado de la piel: trastorno-de-conciencia/06-piel.md
+      - 7. Preguntas frecuentes: trastorno-de-conciencia/07-preguntas-frecuentes.md
+      - 8. Para terminar: trastorno-de-conciencia/08-cierre.md
