@@ -24,6 +24,7 @@ extra_css:
   - assets/estilos.css
 extra_javascript:
   - assets/verdadero-falso.js
+  - assets/tarjetas.js
 
 extra:
   # Estadísticas: crear una cuenta gratis en https://www.goatcounter.com

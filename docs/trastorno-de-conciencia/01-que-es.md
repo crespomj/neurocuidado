@@ -17,10 +17,71 @@ Estos dos aspectos —estar despierto y ser consciente del entorno— son los qu
 
 ## Cuando hablamos de trastornos de conciencia nos referimos a…
 
-<div class="embed" style="--ratio:100%">
-  <iframe loading="lazy" src="https://www.canva.com/design/DAG2JMWfcjY/GvZ1PwOJkyNh4I4B_0rYVA/view?embed" allowfullscreen allow="fullscreen" title="Definiciones de trastorno de conciencia"></iframe>
+<!-- Resumen de la presentación "Definiciones de DOC". Validar con el equipo. -->
+<div class="tarjetas" markdown>
+
+<div class="tarjeta" markdown>
+### Cuatro estados
+
+Después de una lesión cerebral grave, la persona puede pasar por distintos estados. En estas tarjetas los vemos de a uno:
+
+1. Coma
+2. Síndrome de vigilia sin respuesta
+3. Estado de mínima conciencia
+4. Emergencia del estado de mínima conciencia
 </div>
-<p class="abrir"><a href="https://www.canva.com/design/DAG2JMWfcjY/GvZ1PwOJkyNh4I4B_0rYVA/view" target="_blank" rel="noopener">Abrir en pantalla completa</a></p>
+
+<div class="tarjeta" markdown>
+### 1. Coma
+
+La persona **no responde al entorno**.
+
+No abre los ojos y no reacciona, ni siquiera ante un estímulo doloroso.
+</div>
+
+<div class="tarjeta" markdown>
+### 2. Síndrome de vigilia sin respuesta
+
+La persona **se despertó del coma**: abre los ojos, sola o al estimularla.
+
+Pero todavía **no muestra respuestas intencionales**, solo reflejos. Por ejemplo, retira el brazo ante un dolor.
+
+Antes se lo llamaba *estado vegetativo*. El nombre se cambió porque llevaba a asociar injustamente a la persona con un vegetal.
+</div>
+
+<div class="tarjeta" markdown>
+### 3. Estado de mínima conciencia
+
+Aparecen **comportamientos con intención**, que ya no son reflejos:
+
+- seguir una orden simple,
+- responder sí o no con gestos o palabras (aunque no siempre acierte),
+- decir palabras que se entienden,
+- sonreír o llorar en el momento adecuado,
+- alcanzar o usar objetos, o seguir con la mirada algo que se mueve.
+</div>
+
+<div class="tarjeta" markdown>
+### Mínima conciencia: “más” y “menos”
+
+Este estado se divide en dos:
+
+- **MCS+ (más):** sigue órdenes, dice palabras que se entienden o se comunica con intención.
+- **MCS− (menos):** muestra otras señales, como movimientos automáticos, manipular objetos o buscar con la mirada.
+</div>
+
+<div class="tarjeta" markdown>
+### 4. Emergencia
+
+Se considera que la persona **salió del estado de mínima conciencia** cuando, en dos evaluaciones seguidas, logra:
+
+- **comunicarse:** responde bien seis preguntas sobre la situación o sobre su vida, o
+- **usar objetos:** usa de forma adecuada dos objetos distintos.
+
+<p class="frase">Cuidar con conocimientos es cuidar y cuidarse mejor.</p>
+</div>
+
+</div>
 
 <!-- BORRADOR: estas preguntas reemplazan al Kahoot original. Validarlas con el equipo. -->
 <div class="vf-juego" markdown>

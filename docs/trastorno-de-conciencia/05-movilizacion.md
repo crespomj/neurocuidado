@@ -8,17 +8,87 @@ Escuche la introducción (1 minuto)
 <audio controls preload="none" src="medios/secuelas-motoras.mp3"></audio>
 </div>
 
-<div class="embed" style="--ratio:100%">
-  <iframe loading="lazy" src="https://www.canva.com/design/DAG2Jh9IGv8/K-2sTmSaBsl2W_zGv2HcqQ/view?embed" allowfullscreen allow="fullscreen" title="Secuelas motoras"></iframe>
+<!-- Resumen de la presentación "Espasticidad y cuidados posicionales". Validar con el equipo. -->
+<div class="tarjetas" markdown>
+
+<div class="tarjeta" markdown>
+### Después de la lesión
+
+Tras una lesión cerebral grave pueden aparecer distintas complicaciones. Cuáles aparecen depende del **tamaño** y del **lugar** del daño en el cerebro.
+
+Una de las más frecuentes es la **espasticidad**.
 </div>
-<p class="abrir"><a href="https://www.canva.com/design/DAG2Jh9IGv8/K-2sTmSaBsl2W_zGv2HcqQ/view" target="_blank" rel="noopener">Abrir en pantalla completa</a></p>
+
+<div class="tarjeta" markdown>
+### ¿Qué es la espasticidad?
+
+Hay neuronas que llevan las órdenes de movimiento desde el cerebro hasta la médula espinal.
+
+Cuando se dañan, los músculos pueden **contraerse sin que la persona quiera**, a ratos o de forma sostenida. Eso es la espasticidad.
+</div>
+
+<div class="tarjeta" markdown>
+### ¿Por qué aparece?
+
+Las personas con trastornos de la conciencia suelen pasar **mucho tiempo en cama**.
+
+Esa falta de movimiento, junto con la **debilidad o la parálisis** de algunos músculos, favorece que aparezca la espasticidad.
+</div>
+
+<div class="tarjeta" markdown>
+### Los riesgos de no moverse
+
+Estar mucho tiempo sin moverse y no usar los músculos puede provocar:
+
+- pérdida de movimiento en las articulaciones,
+- dolor,
+- llagas o lesiones por presión.
+</div>
+
+<div class="tarjeta" markdown>
+### Qué podemos hacer
+
+Los **cuidados posicionales** adecuados ayudan a prevenir estas complicaciones y a mantener el confort y el bienestar físico de la persona.
+
+<p class="frase">Saber cómo manejar el cuerpo de la persona disminuye las lesiones y mejora su calidad de vida.</p>
+</div>
+
+</div>
 
 ## Estrategias y sugerencias de cuidados
 
-<div class="embed" style="--ratio:100%">
-  <iframe loading="lazy" src="https://www.canva.com/design/DAG2NNlq-ME/bJa4APN57NZAizQq4690hQ/view?embed" allowfullscreen allow="fullscreen" title="Estrategias y sugerencias de cuidados"></iframe>
+<!-- Resumen de la presentación "Estrategias y sugerencias de cuidados". Validar con el equipo. -->
+<div class="tarjetas" markdown>
+
+<div class="tarjeta" markdown>
+### ¿Qué debemos hacer? (1 de 2)
+
+- Conocer cuánta ayuda, qué capacidades y qué cuidados necesita la persona.
+- Movilizar las distintas partes del cuerpo.
+- Cuidar que esté bien alineada y posicionada, sentada o acostada.
+- Hacer cambios de posición, sobre todo en las horas de descanso.
 </div>
-<p class="abrir"><a href="https://www.canva.com/design/DAG2NNlq-ME/bJa4APN57NZAizQq4690hQ/view" target="_blank" rel="noopener">Abrir en pantalla completa</a></p>
+
+<div class="tarjeta" markdown>
+### ¿Qué debemos hacer? (2 de 2)
+
+- Colocar y cuidar bien el equipamiento.
+- Colocar y cuidar bien las **férulas** de brazos y manos.
+- Colocar y cuidar bien las **valvas** de las piernas.
+- Manejar adecuadamente la medicación.
+</div>
+
+<div class="tarjeta" markdown>
+### Consejos prácticos en este curso
+
+- [Videos para movilizar y cambiar de posición](#videos-como-movilizar-a-la-persona)
+- [Cómo colocar y cuidar una férula](#como-colocar-una-ferula)
+- [Cuidado de la piel y prevención de lesiones](06-piel.md)
+
+<p class="frase">Es muy importante que conozca el manejo y los cuidados que necesita la persona.</p>
+</div>
+
+</div>
 
 ## Videos: cómo movilizar a la persona
 

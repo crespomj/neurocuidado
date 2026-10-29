@@ -139,3 +139,96 @@
 .md-typeset .vf.incorrecta .vf-respuesta { display: block; background: var(--nc-mal-fondo); }
 .md-typeset .vf-puntaje { font-weight: 700; margin: .8em 0 0; display: none; }
 .md-typeset .vf-otra { margin-top: .6em; display: none; }
+
+/* ---------- Tarjetas de lectura ---------- */
+.md-typeset .tarjetas { margin: 1.2em 0 1.6em; }
+.md-typeset .tarjeta {
+  background: #fff;
+  border: 2px solid var(--nc-borde);
+  border-radius: 16px;
+  padding: 1.1em 1.2em 1.2em;
+  margin: 0 0 .8em;
+}
+.md-typeset .tarjeta > h3 {
+  margin: 0 0 .5em;
+  font-size: 1.2em;
+  color: var(--md-primary-fg-color--dark);
+}
+.md-typeset .tarjeta p:last-child,
+.md-typeset .tarjeta ul:last-child { margin-bottom: 0; }
+.md-typeset .tarjeta .frase {
+  font-size: 1.15em;
+  font-weight: 600;
+  color: var(--md-primary-fg-color--dark);
+}
+
+/* Con JavaScript: carrusel deslizable */
+.md-typeset .tarjetas.activas .tarjetas-pista {
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scrollbar-width: none;
+  align-items: stretch;
+  border-radius: 16px;
+}
+.md-typeset .tarjetas.activas .tarjetas-pista::-webkit-scrollbar { display: none; }
+.md-typeset .tarjetas.activas .tarjetas-pista:focus-visible { outline: 3px solid var(--md-accent-fg-color); outline-offset: 3px; }
+.md-typeset .tarjetas.activas .tarjeta {
+  flex: 0 0 100%;
+  scroll-snap-align: start;
+  margin: 0;
+  min-height: 15em;
+  background: var(--nc-suave);
+  border-color: var(--nc-borde);
+}
+.md-typeset .tarjetas-barra {
+  height: 6px;
+  background: var(--nc-borde);
+  border-radius: 999px;
+  overflow: hidden;
+  margin-bottom: .7em;
+}
+.md-typeset .tarjetas-barra span {
+  display: block;
+  height: 100%;
+  width: 0;
+  background: var(--md-primary-fg-color);
+  transition: width .25s ease;
+}
+.md-typeset .tarjetas-controles {
+  display: flex;
+  align-items: center;
+  gap: .6em;
+  margin-top: .8em;
+}
+.md-typeset .tarjetas-cuenta {
+  flex: 0 0 auto;
+  min-width: 4.5em;
+  text-align: center;
+  font-weight: 600;
+  color: #3b4a50;
+}
+.md-typeset .tarjetas-controles button,
+.md-typeset .tarjetas-escuchar {
+  font: inherit;
+  font-weight: 700;
+  padding: .7em 1em;
+  border-radius: 12px;
+  border: 2px solid var(--md-primary-fg-color);
+  cursor: pointer;
+}
+.md-typeset .tarjetas-controles button { flex: 1 1 0; }
+.md-typeset .tarjetas-ant { background: #fff; color: var(--md-primary-fg-color--dark); }
+.md-typeset .tarjetas-sig { background: var(--md-primary-fg-color); color: #fff; }
+.md-typeset .tarjetas-controles button:disabled { opacity: .4; cursor: default; }
+.md-typeset .tarjetas-escuchar {
+  display: block;
+  width: 100%;
+  margin-top: .6em;
+  background: #fff;
+  color: var(--md-primary-fg-color--dark);
+  border-style: dashed;
+}
+@media (prefers-reduced-motion: reduce) {
+  .md-typeset .tarjetas-barra span { transition: none; }
+}
