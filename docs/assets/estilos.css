@@ -232,3 +232,76 @@
 @media (prefers-reduced-motion: reduce) {
   .md-typeset .tarjetas-barra span { transition: none; }
 }
+
+/* ---------- Camino de la recuperación ---------- */
+.md-typeset ol.camino {
+  list-style: none;
+  margin: 1.2em 0 .8em;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+.md-typeset ol.camino > li { margin: 0; padding: 0; }
+.md-typeset .camino .etapa {
+  display: flex;
+  flex-direction: column;
+  gap: .15em;
+  padding: .85em 1.1em;
+  border-radius: 14px;
+  color: #fff;
+  background: var(--etapa, #5d6f75);
+  box-shadow: 0 2px 6px rgba(0,0,0,.08);
+}
+.md-typeset .camino .etapa-nombre { font-size: 1.12em; font-weight: 700; line-height: 1.3; }
+.md-typeset .camino .etapa-sigla {
+  align-self: flex-start;
+  font-size: .8em;
+  font-weight: 700;
+  letter-spacing: .04em;
+  padding: .05em .55em;
+  border-radius: 999px;
+  background: rgba(255,255,255,.22);
+}
+.md-typeset .camino .etapa-detalle { font-size: .92em; opacity: .95; }
+/* De apagado a vivo a medida que avanza la recuperación */
+.md-typeset .camino .e1 { --etapa: #5f6b70; }
+.md-typeset .camino .e2 { --etapa: #4f6c78; }
+.md-typeset .camino .e3 { --etapa: #3f6d80; }
+.md-typeset .camino .e4 { --etapa: #2f6e86; }
+.md-typeset .camino .e5 { --etapa: #1f6f7f; }
+.md-typeset .camino .e6 { --etapa: #187563; }
+.md-typeset .camino .e7 { --etapa: #1e7a46; }
+
+.md-typeset .camino .paso {
+  position: relative;
+  padding: .9em 0 .9em 3.2em;
+  font-weight: 700;
+  color: var(--md-accent-fg-color);
+  line-height: 1.3;
+}
+.md-typeset .camino .paso small { font-weight: 400; color: #56656b; font-size: .85em; }
+.md-typeset .camino .paso::before {          /* línea */
+  content: "";
+  position: absolute;
+  left: 1.45em; top: 0; bottom: .55em;
+  border-left: 3px solid var(--md-accent-fg-color);
+}
+.md-typeset .camino .paso::after {           /* punta de flecha */
+  content: "";
+  position: absolute;
+  left: calc(1.45em - 7px); bottom: 0;
+  border: 8px solid transparent;
+  border-top: 10px solid var(--md-accent-fg-color);
+  border-bottom: 0;
+}
+.md-typeset .camino .paso-suave { color: #56656b; font-weight: 600; }
+.md-typeset .camino .paso-suave::before { border-left-style: dashed; border-color: #8a9ba1; }
+.md-typeset .camino .paso-suave::after { border-top-color: #8a9ba1; }
+.md-typeset .camino-nota {
+  font-size: .9em;
+  color: #3b4a50;
+  background: var(--nc-suave);
+  border-radius: 10px;
+  padding: .7em .9em;
+}
