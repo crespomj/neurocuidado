@@ -20,11 +20,12 @@ theme:
   icon:
     logo: material/hand-heart
 
+# Al cambiar estilos o scripts, subir el número de ?v= para que los celulares no usen la versión vieja guardada.
 extra_css:
-  - assets/estilos.css
+  - assets/estilos.css?v=3
 extra_javascript:
-  - assets/verdadero-falso.js
-  - assets/tarjetas.js
+  - assets/verdadero-falso.js?v=3
+  - assets/tarjetas.js?v=3
 
 extra:
   # Estadísticas: crear una cuenta gratis en https://www.goatcounter.com
