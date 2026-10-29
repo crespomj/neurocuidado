@@ -1,8 +1,8 @@
 site_name: Neurocuidado
 site_description: Educación continua para el cuidado de personas con enfermedades neurológicas
 use_directory_urls: false   # páginas .html: funciona en cualquier hosting y abriendo los archivos directo
-# Cuando el sitio esté publicado, poner acá la dirección final:
-# site_url: https://usuario.github.io/neurocuidado/
+# Dirección pública del sitio (GitHub Pages):
+site_url: https://crespomj.github.io/neurocuidado/
 
 theme:
   name: material
