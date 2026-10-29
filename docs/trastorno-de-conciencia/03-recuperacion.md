@@ -48,6 +48,9 @@ Lea de arriba hacia abajo: cada flecha muestra **qué logro** permite pasar a la
   </li>
 </ol>
 
+<!-- PENDIENTE: completar la referencia bibliográfica completa de Chatelle y Laureys (2011). -->
+<p class="camino-fuente">Adaptado de la curva de recuperación del coma de Chatelle y Laureys (2011).</p>
+
 <p class="camino-nota">Cada persona recorre este camino a su propio ritmo, y no todas llegan a todas las etapas. El equipo puede orientarle sobre la situación de la persona que cuida.</p>
 
 !!! pausa "¿Sabe en qué etapa de la recuperación está la persona que cuida?"

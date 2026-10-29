@@ -305,3 +305,5 @@
   border-radius: 10px;
   padding: .7em .9em;
 }
+
+.md-typeset .camino-fuente { font-size: .8em; color: #56656b; font-style: italic; margin: -.2em 0 1em; }
