@@ -30,7 +30,7 @@ extra_javascript:
 extra:
   # Estadísticas: crear una cuenta gratis en https://www.goatcounter.com
   # y poner acá el código elegido (ej.: "neurocuidado"). Vacío = sin estadísticas.
-  goatcounter: ""
+  goatcounter: "neurocuidado"
   generator: false
 
 markdown_extensions:
